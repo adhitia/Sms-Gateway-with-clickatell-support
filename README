@@ -1,13 +1,24 @@
 SMS
 ===
 
-Introduction goes here.
+Hello this is my first pliugin that i save in Github
 
+SMS plugin is a sms gateway with API suport from ClickAtell, next i will try to 
+use another API
 
 Example
 =======
 
-Example goes here.
+To use this plugin you must have API key from clickatell
+after you get that, asign it in clickatell.yml in config folder
+
+try to send sms in console
+
+sms = SMS.new(CLICKATELL_CONFIG)
+
+after that you just asign message and recipent in this line
+
+sms.create(recipient, message_text)
 
 
-Copyright (c) 2010 [name of plugin creator], released under the MIT license
+Copyright (c) 2010 [Adhit], All full Open Source
